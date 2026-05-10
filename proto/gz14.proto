@@ -1,0 +1,144 @@
+syntax = "proto3";
+package gz14;
+option go_package = "gz14/internal/protocol";
+
+// ============ Error Codes ============
+enum ErrCode {
+    ERR_OK                = 0;
+    ERR_UNKNOWN           = 1000;
+    ERR_INVALID_MSG       = 1001;
+    ERR_ACCOUNT_NOT_FOUND = 2001;
+    ERR_WRONG_PASSWORD    = 2002;
+    ERR_ACCOUNT_EXIST     = 2003;
+    ERR_ROLE_NAME_EXIST   = 3001;
+    ERR_ROLE_FULL         = 3002;
+    ERR_ROLE_NOT_FOUND    = 3003;
+    ERR_SESSION_INVALID   = 4001;
+    ERR_SESSION_EXPIRED   = 4002;
+    ERR_LOGIN_REPEATED    = 4003;
+    ERR_SCENE_FULL        = 5001;
+    ERR_MOVE_TOO_FAST     = 5002;
+    ERR_OUT_OF_BOUNDS     = 5003;
+}
+
+// ============ Common ============
+message Vec2 {
+    double x = 1;
+    double y = 2;
+}
+
+message PlayerInfo {
+    int64  id       = 1;
+    string name     = 2;
+    int32  level    = 3;
+    int32  map_id   = 4;
+    Vec2   position = 5;
+}
+
+// ============ Lobby: Login ============
+message LoginReq {
+    string username = 1;
+    string password = 2;
+}
+
+message LoginRsp {
+    ErrCode err_code   = 1;
+    string  token      = 2;
+    string  scene_addr = 3;
+    repeated PlayerInfo roles = 4;
+}
+
+// ============ Lobby: Register ============
+message RegisterReq {
+    string username = 1;
+    string password = 2;
+}
+
+message RegisterRsp {
+    ErrCode err_code = 1;
+    int64   account_id = 2;
+}
+
+// ============ Lobby: CreateRole ============
+message CreateRoleReq {
+    string token = 1;
+    string name  = 2;
+}
+
+message CreateRoleRsp {
+    ErrCode    err_code = 1;
+    PlayerInfo role     = 2;
+}
+
+// ============ Lobby → Scene: EnterScene ============
+message EnterSceneReq {
+    string token    = 1;
+    int64  role_id  = 2;
+}
+
+message EnterSceneRsp {
+    ErrCode    err_code      = 1;
+    int32      map_id        = 2;
+    Vec2       position      = 3;
+    repeated PlayerInfo aoi_players = 4;  // 周围玩家列表
+}
+
+// ============ Heartbeat ============
+message HeartbeatReq {}
+message HeartbeatRsp {}
+
+// ============ Scene: Move ============
+message MoveReq {
+    int64 role_id = 1;
+    Vec2  position = 2;
+}
+
+message MoveBroadcast {
+    int64 role_id    = 1;
+    Vec2  position   = 2;
+    int32 sequence   = 3;  // 用于客户端检测丢包
+}
+
+// ============ Scene: AOI ============
+message AOIEnter {
+    repeated PlayerInfo players = 1;
+}
+
+message AOILeave {
+    repeated int64 role_ids = 1;
+}
+
+// ============ Lobby: Logout ============
+message LogoutReq {
+    string token = 1;
+}
+
+message LogoutRsp {
+    ErrCode err_code = 1;
+}
+
+// ============ Reconnect ============
+message ReconnectReq {
+    string token   = 1;
+    int64  role_id = 2;
+}
+
+message ReconnectRsp {
+    ErrCode    err_code      = 1;
+    int32      map_id        = 2;
+    Vec2       position      = 3;
+    repeated PlayerInfo aoi_players = 4;
+}
+
+// ============ Lobby → Scene internal ============
+message PlayerEnterSceneNotify {
+    int64  role_id = 1;
+    int32  map_id  = 2;
+    double pos_x   = 3;
+    double pos_y   = 4;
+}
+
+message PlayerLeaveSceneNotify {
+    int64 role_id = 1;
+    int32 map_id  = 2;
+}

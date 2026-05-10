@@ -1,0 +1,37 @@
+2026/05/10 16:54:01 [Bot] starting test: addr=127.0.0.1:19001 bots=300 rate=10 mode=move
+2026/05/10 16:54:01 [BotManager] starting 300 bots at 10/sec...
+2026/05/10 16:54:32 [BotManager] all 300 bots started
+2026/05/10 16:54:32 [BotManager] starting movement for 300 bots, interval=500ms, duration=1m0s
+2026/05/10 16:54:35 [BotManager] bot 146 not in scene (state=0), skipping
+2026/05/10 16:54:35 [BotManager] bot 150 not in scene (state=0), skipping
+2026/05/10 16:54:35 [BotManager] bot 158 not in scene (state=0), skipping
+2026/05/10 16:54:35 [BotManager] bot 159 not in scene (state=0), skipping
+2026/05/10 16:54:35 [BotManager] bot 161 not in scene (state=0), skipping
+2026/05/10 16:54:35 [BotManager] bot 163 not in scene (state=0), skipping
+2026/05/10 16:54:35 [BotManager] bot 166 not in scene (state=0), skipping
+2026/05/10 16:54:35 [BotManager] bot 169 not in scene (state=0), skipping
+2026/05/10 16:54:35 [BotManager] bot 190 not in scene (state=0), skipping
+2026/05/10 16:54:35 [BotManager] bot 193 not in scene (state=0), skipping
+2026/05/10 16:54:35 [BotManager] bot 195 not in scene (state=0), skipping
+2026/05/10 16:54:35 [BotManager] bot 196 not in scene (state=0), skipping
+2026/05/10 16:54:35 [BotManager] bot 198 not in scene (state=0), skipping
+2026/05/10 16:54:35 [BotManager] bot 199 not in scene (state=0), skipping
+2026/05/10 16:54:35 [BotManager] bot 200 not in scene (state=0), skipping
+2026/05/10 16:55:28 [Conn:54] read error: read tcp 127.0.0.1:60565->127.0.0.1:19001: read: connection reset by peer
+2026/05/10 16:55:35 [BotManager] movement finished (285 bots in scene)
+
+========= Test Report =========
+Total Bots:        300
+Duration:          1m34.002932125s
+Login Success:     285/300 (95.0%)
+Enter Success:     285/300 (95.0%)
+Login Avg:         1794.9 ms
+Login P50/P95/P99: 1082 / 4550 / 4910 ms
+Move Sent:         33915
+Broadcast Recv:    2783702
+AOI Enter:         166211
+AOI Leave:         42175
+===============================
+2026/05/10 16:55:35 [BotManager] logging out all bots...
+2026/05/10 16:55:35 [BotManager] all bots logged out
+2026/05/10 16:55:35 [Bot] test finished

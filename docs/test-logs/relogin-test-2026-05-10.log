@@ -1,0 +1,503 @@
+2026/05/10 16:54:15 [Bot] starting test: addr=127.0.0.1:19001 bots=300 rate=10 mode=relogin
+2026/05/10 16:54:15 [Bot] relogin round 1/3
+2026/05/10 16:54:15 [BotManager] starting 300 bots at 10/sec...
+2026/05/10 16:54:47 [BotManager] all 300 bots started
+2026/05/10 16:54:47 [BotManager] starting movement for 300 bots, interval=200ms, duration=20s
+2026/05/10 16:54:50 [BotManager] bot 3 not in scene (state=0), skipping
+2026/05/10 16:54:50 [BotManager] bot 8 not in scene (state=0), skipping
+2026/05/10 16:54:50 [BotManager] bot 16 not in scene (state=0), skipping
+2026/05/10 16:54:50 [BotManager] bot 17 not in scene (state=0), skipping
+2026/05/10 16:54:50 [BotManager] bot 18 not in scene (state=0), skipping
+2026/05/10 16:54:50 [BotManager] bot 20 not in scene (state=0), skipping
+2026/05/10 16:54:50 [BotManager] bot 21 not in scene (state=0), skipping
+2026/05/10 16:54:50 [BotManager] bot 22 not in scene (state=0), skipping
+2026/05/10 16:54:50 [BotManager] bot 23 not in scene (state=0), skipping
+2026/05/10 16:54:50 [BotManager] bot 27 not in scene (state=0), skipping
+2026/05/10 16:54:50 [BotManager] bot 33 not in scene (state=0), skipping
+2026/05/10 16:54:50 [BotManager] bot 47 not in scene (state=0), skipping
+2026/05/10 16:54:50 [BotManager] bot 49 not in scene (state=0), skipping
+2026/05/10 16:54:50 [BotManager] bot 59 not in scene (state=0), skipping
+2026/05/10 16:54:50 [BotManager] bot 60 not in scene (state=0), skipping
+2026/05/10 16:54:50 [BotManager] bot 62 not in scene (state=0), skipping
+2026/05/10 16:54:50 [BotManager] bot 64 not in scene (state=0), skipping
+2026/05/10 16:54:50 [BotManager] bot 68 not in scene (state=0), skipping
+2026/05/10 16:54:50 [BotManager] bot 92 not in scene (state=0), skipping
+2026/05/10 16:55:10 [BotManager] movement finished (281 bots in scene)
+2026/05/10 16:55:10 [BotManager] logging out all bots...
+2026/05/10 16:55:10 [BotManager] all bots logged out
+
+========= Test Report =========
+Total Bots:        300
+Duration:          54.720544625s
+Login Success:     281/300 (93.7%)
+Enter Success:     281/300 (93.7%)
+Login Avg:         1812.6 ms
+Login P50/P95/P99: 1022 / 4558 / 4854 ms
+Move Sent:         27819
+Broadcast Recv:    2792985
+AOI Enter:         64140
+AOI Leave:         37537
+===============================
+2026/05/10 16:55:10 [Bot] relogin round 2/3
+2026/05/10 16:55:10 [BotManager] starting 300 bots at 10/sec...
+2026/05/10 16:55:45 [BotManager] all 300 bots started
+2026/05/10 16:55:45 [BotManager] starting movement for 300 bots, interval=200ms, duration=20s
+2026/05/10 16:55:47 [BotManager] bot 179 not in scene (state=1), skipping
+2026/05/10 16:55:47 [BotManager] bot 180 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 181 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 182 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 183 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 184 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 185 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 186 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 187 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 188 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 189 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 190 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 191 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 192 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 193 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 194 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 195 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 196 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 197 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 198 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 199 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 200 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 201 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 202 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 203 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 204 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 205 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 206 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 207 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 208 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 209 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 210 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 211 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 212 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 213 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 214 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 215 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 216 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 217 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 218 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 219 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 220 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 221 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 222 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 223 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 224 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 225 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 226 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 227 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 228 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 229 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 230 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 231 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 232 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 233 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 234 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 235 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 236 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 237 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 238 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 239 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 240 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 241 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 242 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 243 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 244 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 245 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 246 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 247 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 248 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 249 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 250 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 251 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 252 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 253 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 254 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 255 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 256 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 257 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 258 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 259 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 260 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 261 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 262 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 263 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 264 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 265 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 266 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 267 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 268 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 269 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 270 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 271 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 272 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 273 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 274 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 275 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 276 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 277 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 278 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 279 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 280 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 281 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 282 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 283 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 284 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 285 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 286 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 287 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 288 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 289 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 290 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 291 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 292 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 293 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 294 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 295 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 296 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 297 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 298 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 299 not in scene (state=0), skipping
+2026/05/10 16:55:47 [BotManager] bot 300 not in scene (state=0), skipping
+2026/05/10 16:56:07 [BotManager] movement finished (178 bots in scene)
+2026/05/10 16:56:07 [BotManager] logging out all bots...
+2026/05/10 16:56:07 [BotManager] all bots logged out
+
+========= Test Report =========
+Total Bots:        300
+Duration:          57.684938166s
+Login Success:     179/300 (59.7%)
+Enter Success:     178/300 (59.3%)
+Login Avg:         103.6 ms
+Login P50/P95/P99: 99 / 138 / 147 ms
+Move Sent:         17622
+Broadcast Recv:    840625
+AOI Enter:         16727
+AOI Leave:         10357
+===============================
+2026/05/10 16:56:07 [Bot] relogin round 3/3
+2026/05/10 16:56:07 [BotManager] starting 300 bots at 10/sec...
+2026/05/10 16:56:42 [BotManager] all 300 bots started
+2026/05/10 16:56:42 [BotManager] starting movement for 300 bots, interval=200ms, duration=20s
+2026/05/10 16:56:45 [BotManager] bot 1 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 2 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 3 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 4 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 5 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 6 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 7 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 8 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 9 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 10 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 11 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 12 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 13 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 14 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 15 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 16 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 17 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 18 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 19 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 20 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 21 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 22 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 23 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 24 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 25 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 26 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 27 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 28 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 29 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 30 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 31 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 32 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 33 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 34 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 35 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 36 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 37 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 38 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 39 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 40 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 41 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 42 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 43 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 44 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 45 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 46 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 47 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 48 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 49 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 50 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 51 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 52 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 53 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 54 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 55 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 56 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 57 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 58 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 59 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 60 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 61 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 62 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 63 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 64 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 65 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 66 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 67 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 68 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 69 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 70 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 71 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 72 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 73 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 74 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 75 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 76 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 77 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 78 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 79 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 80 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 81 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 82 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 83 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 84 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 85 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 86 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 87 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 88 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 89 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 90 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 91 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 92 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 93 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 94 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 95 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 96 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 97 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 98 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 99 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 100 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 101 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 102 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 103 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 104 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 105 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 106 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 107 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 108 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 109 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 110 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 111 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 112 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 113 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 114 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 115 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 116 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 117 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 118 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 119 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 120 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 121 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 122 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 123 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 124 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 125 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 126 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 127 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 128 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 129 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 130 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 131 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 132 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 133 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 134 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 135 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 136 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 137 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 138 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 139 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 140 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 141 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 142 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 143 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 144 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 145 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 146 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 147 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 148 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 149 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 150 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 151 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 152 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 153 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 154 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 155 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 156 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 157 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 158 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 159 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 160 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 161 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 162 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 163 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 164 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 165 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 166 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 167 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 168 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 169 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 170 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 171 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 172 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 173 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 174 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 175 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 176 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 177 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 178 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 179 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 180 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 181 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 182 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 183 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 184 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 185 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 186 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 187 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 188 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 189 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 190 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 191 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 192 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 193 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 194 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 195 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 196 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 197 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 198 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 199 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 200 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 201 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 202 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 203 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 204 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 205 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 206 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 207 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 208 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 209 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 210 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 211 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 212 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 213 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 214 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 215 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 216 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 217 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 218 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 219 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 220 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 221 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 222 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 223 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 224 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 225 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 226 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 227 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 228 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 229 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 230 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 231 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 232 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 233 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 234 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 235 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 236 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 237 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 238 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 239 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 240 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 241 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 242 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 243 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 244 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 245 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 246 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 247 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 248 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 249 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 250 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 251 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 252 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 253 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 254 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 255 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 256 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 257 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 258 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 259 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 260 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 261 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 262 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 263 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 264 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 265 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 266 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 267 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 268 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 269 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 270 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 271 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 272 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 273 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 274 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 275 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 276 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 277 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 278 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 279 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 280 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 281 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 282 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 283 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 284 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 285 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 286 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 287 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 288 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 289 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 290 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 291 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 292 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 293 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 294 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 295 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 296 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 297 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 298 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 299 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] bot 300 not in scene (state=0), skipping
+2026/05/10 16:56:45 [BotManager] movement finished (0 bots in scene)
+2026/05/10 16:56:45 [BotManager] logging out all bots...
+2026/05/10 16:56:45 [BotManager] all bots logged out
+
+========= Test Report =========
+Total Bots:        300
+Duration:          37.450631s
+Login Success:     0/300 (0.0%)
+Enter Success:     0/300 (0.0%)
+Login Avg:         0.0 ms
+Login P50/P95/P99: 0 / 0 / 0 ms
+Move Sent:         0
+Broadcast Recv:    0
+AOI Enter:         0
+AOI Leave:         0
+===============================
+2026/05/10 16:56:45 [Bot] test finished

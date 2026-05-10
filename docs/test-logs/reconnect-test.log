@@ -1,0 +1,13 @@
+2026/05/10 17:03:55 [Bot] reconnect test: bots=3 rate=3
+2026/05/10 17:03:56 [BotManager] all 3 bots started
+
+-- disconnect all 3 connections --
+-- wait 2s --
+
+2026/05/10 17:03:58 [Bot:1] reconnect success in 48.212ms (map=1)
+2026/05/10 17:03:58 [Bot:2] reconnect success in 10.972ms (map=1)
+2026/05/10 17:03:58 [Bot:3] reconnect success in 5.528ms (map=1)
+
+========= Reconnect Result =========
+ok=3 fail=0 total=3
+reconnect time: 5~48ms

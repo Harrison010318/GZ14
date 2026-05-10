@@ -1,0 +1,15 @@
+2026/05/10 16:49:22 [Bot] starting test: addr=127.0.0.1:19001 bots=1000 rate=20 mode=login
+2026/05/10 16:49:22 [BotManager] starting 1000 bots at 20/sec...
+2026/05/10 16:50:12 [BotManager] all 1000 bots started
+
+========= Test Report =========
+Total Bots:        1000
+Duration:          50.503153375s
+Login Success:     1000/1000 (100.0%)
+Enter Success:     1000/1000 (100.0%)
+Login Avg:         185.9 ms
+Login P50/P95/P99: 127 / 598 / 903 ms
+AOI Enter:         499162
+===============================
+2026/05/10 16:50:12 [BotManager] logging out all bots...
+2026/05/10 16:50:13 [BotManager] all bots logged out
